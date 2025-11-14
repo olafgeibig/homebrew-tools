@@ -18,7 +18,7 @@ class Aiproxy < Formula
         PYTHONUNBUFFERED: "1"
 
       pkgshare.install Dir["etc/*"]
-      (etc/"aiproxy").install "etc/config.yaml"
+      (etc/"aiproxy").install "config.yaml"
     end
   end
 
